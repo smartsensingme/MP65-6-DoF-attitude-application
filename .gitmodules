@@ -1,0 +1,15 @@
+[submodule "components/esp_mp65"]
+	path = components/esp_mp65
+	url = https://github.com/smartsensingme/esp_mp65.git
+[submodule "components/esp_stream"]
+	path = components/esp_stream
+	url = https://github.com/smartsensingme/esp_stream.git
+[submodule "components/kalman"]
+	path = components/kalman
+	url = https://github.com/smartsensingme/kalman.git
+[submodule "components/imu_attitude"]
+	path = components/imu_attitude
+	url = https://github.com/smartsensingme/imu_attitude.git
+[submodule "components/kalman_attitude"]
+	path = components/kalman_attitude
+	url = https://github.com/smartsensingme/kalman_attitude.git

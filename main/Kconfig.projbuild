@@ -1,0 +1,10 @@
+menu "MP65 attitude application"
+    config MP65_ATTITUDE_STREAM
+        bool "Stream attitude over native USB (UART console required)"
+        default n
+        help
+            Emit quantized quaternion and ready channels through esp_stream
+            at 25 Hz from Core 0. Owns native USB;
+            cannot run alongside the capture transport or USB console.
+            Acquisition never waits for USB. Uses a one-slot overwrite queue.
+endmenu

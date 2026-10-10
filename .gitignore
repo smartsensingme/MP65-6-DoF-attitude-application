@@ -1,0 +1,18 @@
+# ESP-IDF generated files and local configuration
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+.legacy-examples/
+octave-workspace
+# Editor and operating-system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
